@@ -1,162 +1,108 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Meyer's reset*/
- 
- 
- 
- * {
-    border: 1px solid #777;
-    padding: 10px;
-}
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff
     border-color: #dddddd; 
-    background-image: url("../images/ep_naturalwhite.png");
-    width: 960px; 
-    margin: auto;
-    padding: 20%;
-    
-
-
-}
-
-.topbox {
-    height: 30%;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 2em;
-    border-color: #cccccc;
+    background-image: url("../images/ep_naturalwhite.png"); 
     margin: auto;
     
     
-}
-.name{
-    color: #ffffff;
-    width: 15%;
-    background-color: #59bbb6;
-    font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    float: left;
-    margin: 0%;
     
-}
-
-
-.contact {
-    width: 15%;
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    margin:0em;
-    
-
-}  
-    
-
-
-.portfolio {
-    width: 15%;
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-    
-
-
-}
-
-
-.about {
-    width: 15%;
-    color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
 }
 
 .bigbox {
-    height: 25em;
-    width: 100%;
-    padding:3em;
-    margin: auto;
+    background-color: #ffffff;
+    padding: 3em;
+    margin:2em;
+    border-color: #cccccc;
+    border: 0.2em;
+    width: 960px;
+    height: 350px;
+    font-size: 1.2em;
+
+
 }
+
+.footer {
+    background-color: #666666;
+    width: 100%;
+    padding:0.5em;
+    margin: 0em;
+    text-align: center;
+    font-size: x-small;
+    border-top: #4aaaa5 solid 5px;
+
+}
+
+
+
+.topbox {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    padding: 0em;
+    margin: 0 em;
+    width: 100%;
+    height: 3em;
+    
+    
+    
+}
+
+.small {
+    width: 6em;
+    
+
+}
+
+.midbox {
+    width: 960px;
+}
+
+.small.name {
+    float: left;
+    font-size: 2em;
+    background-color: #4aaaa5;
+    height: 1.5em;
+    margin-left: 2em;
+    text-align: center;
+    
+    
+}
+
+.contact {
+    float: right;
+    margin: 1em;
+}
+
+.portfolio {
+    float: right;
+    margin: 1em;
+    border-right: #cccccc solid 2px;
+}
+
+.about {
+    float: right;
+    margin: 1em;
+    border-right: #cccccc solid 2px;
+}
+
+
+
+
 
 h1 {
-    border-bottom: #666666 solid;
+    clear: both;
+    border-bottom: #cccccc solid 2px;
     font-size: 2em;
+    padding: 3px;
+    margin: 3px;
 }
-
 img {
-    width: 17%;
-    height: 50%;
+    height: 10em;
+    width: 10em;
     padding: 0.5em;
     margin: 0em;
     float: left;
 }
 
-
-.footer {
-    clear: both;
-    text-align: center;
-    font-size: smaller;
-    background-color: #666666;
-    border-top: solid #59bbb6;
-}
-
-.border {
-    height: 70%;
-
-}
-
-
-
-p { padding: 0.5em;
-    width: 90%;
-}
