@@ -1,5 +1,57 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-  * {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Meyer's reset*/
+ 
+ 
+ 
+ * {
     border: 1px solid #777;
     padding: 10px;
 }
@@ -8,10 +60,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #ffffff;
     border-color: #dddddd; 
-    background-image: url(../images/ep_naturalwhite.png)
+    background-image: url("../images/ep_naturalwhite.png");
     width: 960px; 
     margin: auto;
-    padding: 2%;
+    padding: 20%;
     
 
 
@@ -38,14 +90,18 @@ body {
     
 }
 
-.about {
+
+.contact {
     width: 15%;
     color: #777;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
+    margin:0em;
     
+
+}  
     
-}
+
 
 .portfolio {
     width: 15%;
@@ -57,30 +113,29 @@ body {
 
 }
 
-.contact {
+
+.about {
     width: 15%;
     color: #777;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
-    margin:0em;
-    
-
 }
 
 .bigbox {
     height: 25em;
     width: 100%;
-    padding:0em;
+    padding:3em;
     margin: auto;
 }
 
 h1 {
     border-bottom: #666666 solid;
+    font-size: 2em;
 }
 
 img {
-    width: 25%;
-    height: 70%;
+    width: 17%;
+    height: 50%;
     padding: 0.5em;
     margin: 0em;
     float: left;
