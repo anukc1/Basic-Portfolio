@@ -1,2 +1,3 @@
 # Basic-Portfolio
-harder hw1
+
+Basic portfolio design using html and css. 
